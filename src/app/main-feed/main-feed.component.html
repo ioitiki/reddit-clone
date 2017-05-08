@@ -1,0 +1,6 @@
+<div *ngFor="let topic of topics" class="panel panel-default" (click)="detailPage(topic)">
+  <div class="panel-body">
+    <h3><em>{{topic.title}}</em> by {{topic.user}}</h3>
+    <h4>{{topic.category}}</h4>
+  </div>
+</div>
